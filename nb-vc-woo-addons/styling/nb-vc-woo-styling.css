@@ -1,0 +1,94 @@
+/* Directory Styling */
+
+.nb-vc-woo-product-container{
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
+.nb-vc-woo-product-box {
+  width: 244px;
+  display: inline-block;
+  margin: 20px;
+  text-align: left;
+  vertical-align: top;
+   }
+  .nb-vc-woo-product-box .img-container {
+    border: 1px solid #e7e7e7;
+    border-radius: 1px;
+    width: 100%;
+    height: 244px;
+    margin-bottom: 20px;
+    position: relative; }
+    .nb-vc-woo-product-box .img-container img {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+  .nb-vc-woo-product-box .tag {
+    position: relative;
+    padding: 5px 20px 3px 10px;
+    position: relative;
+    color: #FFF;
+    background: #cb1c0a;
+    font-size: 15px;
+    font-family: "Museo Sans", Roboto, Helvetica, Arial, sans-serif;
+    color: white;
+    line-height: 1;
+    display: inline-block;
+    font-weight: 700; }
+    .nb-vc-woo-product-box .tag:after {
+      content: " ";
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      background: #cb1c0a;
+      transform-origin: bottom left;
+      -ms-transform: skew(-30deg, 0deg);
+      -webkit-transform: skew(-30deg, 0deg);
+      transform: skew(-30deg, 0deg); }
+  .nb-vc-woo-product-box .retail-price {
+    color: #646464; }
+  .nb-vc-woo-product-box .member-price {
+    color: black; }
+  .nb-vc-woo-product-box .retail-price, .nb-vc-woo-product-box .member-price {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-bottom: 16px; }
+    .nb-vc-woo-product-box .retail-price .retail-pr-label, .nb-vc-woo-product-box .member-price .retail-pr-label {
+      font-size: 12px;
+      font-family: "Museo Sans", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 2.25;
+      font-weight: 700;
+      display: block; }
+    .nb-vc-woo-product-box .retail-price .member-pr-label, .nb-vc-woo-product-box .member-price .member-pr-label {
+      font-size: 12px;
+      font-family: "Museo Sans", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 2.25;
+      font-weight: 700;
+      display: block; }
+    .nb-vc-woo-product-box .retail-price .price, .nb-vc-woo-product-box .member-price .price {
+      vertical-align: top;
+      font-size: 30px;
+      font-family: "Museo Sans", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 700; }
+      .nb-vc-woo-product-box .retail-price .price span, .nb-vc-woo-product-box .member-price .price span {
+        vertical-align: top; }
+      .nb-vc-woo-product-box .retail-price .price .currency, .nb-vc-woo-product-box .member-price .price .currency {
+        font-size: 10px; }
+      .nb-vc-woo-product-box .retail-price .price .cents, .nb-vc-woo-product-box .member-price .price .cents {
+        font-size: 10px; }
+  .nb-vc-woo-product-box .product-title {
+    font-size: 15px;
+    font-family: "Museo Sans", Roboto, Helvetica, Arial, sans-serif;
+    color: #094fb2;
+    line-height: 1.333;
+    font-weight: bold; }
